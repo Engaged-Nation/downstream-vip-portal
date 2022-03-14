@@ -2,13 +2,13 @@
 /**
  * Contains RoboFile
  *
- * @package odawa-vip
+ * @package downstream-vip
  */
 
 /**
  * @author Joshua Copeland <josh@engagednation.com>
  * @author Matthew Kosolofski <matthew.kosolofski@engagednation.com>
- * @package odawa-vip
+ * @package downstream-vip
  */
 class RoboFile extends \Robo\Tasks
 {
