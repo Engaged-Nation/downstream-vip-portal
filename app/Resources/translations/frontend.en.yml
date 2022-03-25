@@ -242,7 +242,7 @@ fzone:
 
     details: '<p class="myvoucher-issuedTo" style="display: none;"><span class="goGold">Player Name</span>: %issuedTo%</p>
       <p class="myvoucher-nickName" style="display: none;"><span class="goGold">Nickname</span>: %nickname%</p>
-      <p class="myvoucher-playersCard" style="display: none;"><span class="goGold">Players Card Number</span>: %playerscard%</p>
+      <p class="myvoucher-playersCard" style="display: none;"><span class="goGold">Q Club Card Number</span>: %playerscard%</p>
       <p class="myvoucher-issuedDate" style="display:none;"><span class="goGold">Date Issued</span>: %issued_date%</p>
       <p class="myvoucher-expireDate" style="display:none;"><span class="goGold">Expiration Date</span>: %expire_date%</p>
       <p class="myvoucher-vid" style="display:none;"><span class="goGold">Voucher Id</span>: %vid%</p>
