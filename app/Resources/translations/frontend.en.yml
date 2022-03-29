@@ -114,16 +114,12 @@ fzone:
   login:
     username: "Please enter your email address"
     incorrect: "<div class=\"wrongpass-wrapper\">
-        <div class=\"wrongpass-headline\">LOGIN UNSUCCESSFUL</div>
-        <div class=\"body-p-left\">
-          The password you entered was incorrect. Please close this message and try again.
-        </div>
-        <div class=\"body-p\">
-          <div class=\"wrongpassbold\">NEED TO RESET YOUR PASSWORD?</div>
-          If so, press the button below.
-        </div>
-        <div class=\"body-p btn-container\">
-          <button type=\"button\" class=\"modal-button-style btn-reset-password\" onclick=\"$('.lbxgrid .xclose span').click();\">RESET PASSWORD</button>
+        <h2>Login Unsuccessful</h2>
+        <p>The password you entered was incorrect. Please close this message and try again.</p>
+        <h3>NEED TO RESET YOUR PASSWORD?</h3>
+        <p>Press the button below.</p>
+        <div class=\"btn-container\">
+          <button type=\"button\" class=\"modal-button-style btn-reset-password\" onclick=\"$('.lbxgrid .xclose span').click();\">Submit</button>
         </div>
       </div>"
     welcome: ""
@@ -869,3 +865,11 @@ propCard:
         '
       rules: 'All prize winners will be contacted directly.<div class="read-the-rules"><a href="[s3_uploads_url]/images/pdf/rules-terms.pdf" target="_blank" class="text-link">Read the rules</a> for more details.</div>'
       pageNote: 'VISIT THIS PAGE AGAIN ON MONDAY, DECEMBER 6, 2021, TO SEE HOW MANY YOU GOT RIGHT.'
+
+system:
+  session:
+    timeout: '<h1 class="text-center mb-3">Refreshing Your Experience</h1>
+      <p class="text-center mb-0">Please wait just a few moments for the latest and greatest updates to be applied to your account.</p>
+      <div class="spinner text-center">
+        <div id="loaderWrapper"><div class="en-animation-loader-cube-grid"><div class="en-animation-loader-cube en-animation-loader-cube1"></div><div class="en-animation-loader-cube en-animation-loader-cube2"></div><div class="en-animation-loader-cube en-animation-loader-cube3"></div><div class="en-animation-loader-cube en-animation-loader-cube4"></div><div class="en-animation-loader-cube en-animation-loader-cube5"></div><div class="en-animation-loader-cube en-animation-loader-cube6"></div><div class="en-animation-loader-cube en-animation-loader-cube7"></div><div class="en-animation-loader-cube en-animation-loader-cube8"></div><div class="en-animation-loader-cube en-animation-loader-cube9"></div></div></div>
+      </div>'
