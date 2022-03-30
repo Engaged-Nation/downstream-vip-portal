@@ -232,9 +232,9 @@ fzone:
   myvouchers:
     expirationdate: ""
     header: ""
-    novouchers: "You do not have any rewards to redeem at this time."
+    novouchers: "<h5 style=\"margin-bottom: 0;\">OH NO!</h5><p>You do not have any rewards to redeem at this time.</p><h5 style=\"margin-bottom: 0;\">DON'T MISS OUT ON YOUR FREE Q Play!</h5><p style=\"margin-bottom: 0;\">To get your free Q Play reward, open the email we sent to you, click on the button, and then play the game that immediately loads when you enter this website.</p><p>Once you have played the game, your reward will then be available to view, download and print from this page.</p>"
 
-    bodycopy: "<p class=\"body-p\">View your active rewards and redeem them by swiping your Q Club Card at any Downstream Casino Resort kiosk during the dates shown below.</p>"
+    bodycopy: "<p class=\"body-p\">Download your reward and redeem it by following the directions on the voucher.</p>"
 
     details: '<p class="myvoucher-issuedTo" style="display: none;"><span class="goGold">Player Name</span>: %issuedTo%</p>
       <p class="myvoucher-nickName" style="display: none;"><span class="goGold">Nickname</span>: %nickname%</p>
